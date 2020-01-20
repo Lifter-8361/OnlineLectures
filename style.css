@@ -7,7 +7,7 @@ body
 {
     width: 1280px;
     margin: 0 auto;
-    border: 1px solid black;
+    
     box-sizing: border-box;
 }
 
@@ -35,8 +35,7 @@ body
 
 .main-header-wrp
 {
-    border: 1px solid #fff;
-    width: 400px; <!-- ??? -->
+    width: 711px;
     float: left;
 }
 
@@ -53,23 +52,26 @@ body
 {
     margin: 0;
     list-style-type: none;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 16px;
 }
 
 .main-header-list-item
 {
     position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 .main-header-list-item:before
 {
     content: "";
     display: block;
-    width: 13px;
-    height: 10px;
+    width: 25px;
+    height: 19px;
     position: absolute;
     top: 4px;
-    left: -16px;
+    left: -32px;
     background-image: url(image/header_check.png);
     -webkit-background-size: cover;
     background-size: cover;
