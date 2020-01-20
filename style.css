@@ -7,7 +7,6 @@ body
 {
     width: 1280px;
     margin: 0 auto;
-    
     box-sizing: border-box;
 }
 
@@ -83,5 +82,50 @@ body
     width: 469px;
     min-height: 214px;
     background-color: #fff;
+    float: right;
+}
+
+.main-about-product-block
+{
+    background-color:#fff;
+}
+
+.main-about-product-block:after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+main-about-product-text-block
+{
+    width: 750px;
+    float: left;
+}
+
+.main-about-product-title
+{
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.main-about-product-text
+{
+    width: 650px;
+    color: #333333;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-about-product-video
+{
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
     float: right;
 }
