@@ -120,7 +120,7 @@ main-about-product-text-block
 
 .main-about-product-text
 {
-    width: 650px;
+    width: 660px;
     color: #333333;
     font-family: "Arial";
     font-size: 16px;
@@ -153,8 +153,9 @@ main-about-product-text-block
 
 .main-dignity-and-pulses-title
 {
+    display: block;
     color: #445161;
-    padding: 0 0 0 464px;
+    padding: 0 0 25px 464px;
     font-family: "Arial";
     font-size: 30px;
     font-weight: 400;
@@ -181,23 +182,24 @@ main-about-product-text-block
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    position: relative;
 }
 
-/*Плюсики почему-то не вставляются*/
-/*.main-dignity-and_pulses-first-list-item:before
+.main-dignity-and-pulses-first-list-item:before,
+.main-dignity-and-pulses-second-list-item:before
 {
     content: "";
     display: block;
     width: 25px;
-    height: 19px;
+    height: 25px;
     position: absolute;
-    top: 4px;
-    left: -32px;
-    background-color: red;
-    background-image: url(image/header_check.png);
+    top: 8px;
+    left: -34px;
+    background-image: url(image/plus.png);
     -webkit-background-size: cover;
     background-size: cover;
-}*/
+    background-color: #445161;
+}
 
 .main-dignity-and-pulses-second-list
 {
@@ -219,6 +221,7 @@ main-about-product-text-block
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    position: relative;
 }
 
 .main-screenshorts-section
@@ -228,6 +231,8 @@ main-about-product-text-block
 
 .main-screenshorts-section-title
 {
+    display: block;
+    margin: 0 0 0 0;
     padding: 0 0 0 571px;
     width: 138px;
     color: #445161;
@@ -239,8 +244,17 @@ main-about-product-text-block
 
 .main-screenshorts-section-unit
 {
-    width: 50%;
-    margin: 0 0 0 0;
+    display: block;
+    margin: 30px 0 0 18px;
+    float: left;
+}
+
+.main-screenshorts-section:after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .main-screenshorts-section-unit-picture
