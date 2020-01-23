@@ -473,7 +473,7 @@ main-about-product-text-block
 
 .main-buy-section-item-list
 {
-    
+    list-style-position: inside
 }
 
 .main-buy-section-item-list-item
@@ -487,15 +487,19 @@ main-about-product-text-block
 
 .main-buy-section-buy-button
 {
-    width: 90%;
-    min-height: 40px;
-    margin: 0 5% 20px 5%;
-    // ???
-    color: #445161;
+    display: block;
+    text-align: center;
+    color: #445162;
+    text-decoration: none;
+    user-select: none;
+    background: #fff;
+    padding: .7em 1.5em;
+    outline: none;
     font-family: "Arial - Bold";
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 18px;
     text-transform: uppercase;
-    border-radius: 7px;
+    margin: 0 5% 25px 5%;
+    border-radius: 5px;
 }
