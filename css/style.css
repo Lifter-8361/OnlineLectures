@@ -71,7 +71,7 @@ body
     position: absolute;
     top: 4px;
     left: -32px;
-    background-image: url(image/header_check.png);
+    background-image: url(img/header_check.png);
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -195,7 +195,7 @@ main-about-product-text-block
     position: absolute;
     top: 8px;
     left: -34px;
-    background-image: url(image/plus.png);
+    background-image: url(img/plus.png);
     -webkit-background-size: cover;
     background-size: cover;
     background-color: #445161;
