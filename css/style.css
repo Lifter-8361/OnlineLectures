@@ -301,10 +301,108 @@ main-about-product-text-block
     margin: 8px 0 0 0;
 }
 
-/*.main-screenshorts-section-unit:after
+.main-screenshorts-section-unit:after
 {
     content: "";
     display: block;
     clear: both;
     width: 100%;
-}*/
+}
+
+.main-reviews-section
+{
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.main-reviews-section-title
+{
+        display: block;
+    width: 100%;
+    padding: 0 0 25px 0;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.main-reviews-section-unit
+{
+    width: 50%;
+    min-height: 150px;
+    float: left;
+    position: relative;
+}
+
+.main-reviews-section-unit:after
+{
+    content: "";
+    display:block;
+    clear: both;
+}
+
+..main-reviews-section-unit::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-reviews-section-avatar
+{
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 37.5px;
+    float: left;
+}
+
+.main-reviews-section-triangle
+{
+    border: 20px solid transparent;
+    border-right: 20px solid #ebebeb;
+    width: 15px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position:absolute;
+    top: 25px;
+    left: 75px;
+}
+
+.main-reviews-section-text
+{
+    display: block;
+    width: 450px;
+    min-height: 125px;
+    float: left;
+    margin: 0 0 0 0px;
+    padding: 15px 20px 0 15px;
+    background-color: #ebebeb;
+    box-sizing: border-box;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    color: #333333;
+    font-family: "Arial - Italic";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    position: absolute;
+    left: 110px;
+    top: 0;
+    
+}
+
+.main-reviews-section-sign
+{
+    display: block;
+    color: #989898;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 15px 0 0 0;
+}
