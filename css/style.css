@@ -503,3 +503,155 @@ main-about-product-text-block
     margin: 0 5% 25px 5%;
     border-radius: 5px;
 }
+
+.main-footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1280px;
+    padding: 50px;
+    background-color: #335161;
+}
+
+.main-footer-title
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+    font-family: "Arial";
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.main-footer-form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 46px 0 0;
+}
+
+.main-footer-form input[type="text"],
+.main-footer-form input[type="email"],
+.main-footer-form textarea
+{
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.main-footer-form input[type="text"] : hover,
+.main-footer-form input[type="email"] : hover,
+.main-footer-form textarea : hover
+{
+    background-color: gray;
+    color: white;
+    border-color: white;
+}
+
+.main-footer-form input[type="text"] : hover :: placeholder,
+.main-footer-form input[type="email"] : hover :: placeholder,
+.main-footer-form textarea : hover :: placeholder
+{
+    color: white;
+}
+
+.main-footer-form textarea
+{
+    width: 500px;
+    height: 170px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+}
+
+input[placeholder],
+textarea[placeholder]
+{
+    text-overflow: ellipsis;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.main-footer-form input[type="submit"]
+{
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+}
+
+.main-footer-form input[type="submit"]:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+.main-footer-form input[type="submit"]:hover
+{
+    background-color: #ffffff;
+    color: #445162;
+}
+
+.main-footer-contacts
+{
+    width: 240px;
+    height: 300px;
+    background-color: #335161;
+}
+
+.main-footer-skype,
+.main-footer-icq,
+.main-footer-mail-ru,
+.main-footer-phone
+{
+    display: block;
+    height: 15px;
+    color: #000000;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 20px 20px 40px;
+    position: relative;
+}
+
+.main-footer-skype:before
+{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 26px;
+    position: absolute;
+    top: 0px;
+    left: -35px;
+    background-image: url(img/skype_icon.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    border: 1px solid white;
+}
